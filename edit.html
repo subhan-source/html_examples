@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <style>
+            body{
+              padding: 0px;
+              margin: 0px;
+            }
+            .video-background{
+              position: absolute;
+              right: 0%;
+              bottom: 0%;
+              min-width: 100%;
+              min-height: 100%;
+              width: auto;
+              height: auto;
+              z-index: -1;
+            }
+
+             img
+             {
+                height: 65px;
+                width: 240px;
+             }
+
+            .icon-bar {
+              width: 90px; 
+              background-color:rgb(231, 153, 97);
+              height:10%;
+              width: 100%;
+              }
+
+            .icon-bar a {
+              display: block; 
+              text-align: top;
+              padding: 25px; 
+              color:purple;
+              font-size: 20px; 
+              float:right;
+
+             }
+
+            .icon-bar a:hover
+             {
+              background-color:chocolate;
+              color: #fff;
+              
+              width: 5%;
+              height: 20px;
+              text-align: center;
+            }
+
+            .msg{
+              position: relative;
+              text-align: center;
+              font-family: 'splatch';
+              color: #fff;
+              top: 200px;
+              }
+            .btn{
+              font-size: 18px;
+              color: #fff;
+              letter-spacing: 2px;
+              margin: 5px;
+              padding: 7px 28px;
+              text-decoration: none;
+              border: 1px solid coral;
+              border-radius: 25px;
+            }
+            .btn1:hover{
+              background-color:coral;
+              color: #fff;
+              transition: .4s;
+            }
+            .btn2:hover{
+              background-color: coral;
+              transition: .4s;
+            }
+            .search{
+              margin-top: 40px;
+            }
+            .se{
+              background-color: rgba(0,0,0,0.5);
+              color: #fff;
+              border: 1px solid coral;
+              width: 20%;
+              height: 24px;
+              border-radius: 25px;
+              text-align: center;
+              box-shadow: 1px 1px 1px 1px coral;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="icon-bar">
+                <img src="aptech_logo.png">
+            <a href="#"><i class="about us">about us</i></a>
+            <a href="#"><i class="content us"></i>content us</a>
+            <a href="#"><i class="home">home</i></a>
+           
+          
+          </div>
+         
+          <video autoplay loop muted class="video-background">
+              <source src="slow-fire.mp4" type="video/mp4">
+          </video>
+          <div class="msg">
+              <h1>subhan web developer</h1>
+              <a href="#" class="btn btn1">home</a>
+              <a href="#" class="btn btn2">content</a>
+          <div class="search">
+              <input type="text" class="se" placeholder="Search">
+          </div>
+          </div>
+    </body>
+</html>
